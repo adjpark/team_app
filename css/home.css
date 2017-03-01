@@ -1,0 +1,186 @@
+#plus{
+    width: auto;
+    height: 50px;
+    padding-left: 25px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#edit{
+    width: auto;
+    height: 50px;
+}
+
+#logo{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+#homepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#managepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchpage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profilepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contentMargin{
+    padding-top: 11.5%;
+    padding-bottom: 11%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    
+    
+}
+
+
+.btn{
+    font-size: 20pt;
+}
+
+
+
+#profileImg{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+b{
+    font-size: 35pt;
+    font-weight: 400;
+    color: grey;
+}
+
+p{
+    font-size: 30pt;
+}
+
+hr{
+    border-top-color: rgb(0,201,255);
+}
+
+#teamlist{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.smallIcon {
+    width: 8.3%;
+    float: left;
+}
+.logoIcon {
+    width: 83.3%;
+    float: left;
+}
+
+.botttomNavIcon{
+    width: 25%;
+    float: left;
+}
+
+.navbar{
+    height: 100px;;
+    margin-bottom: 0px;
+    background-color: rgb(0,201,255);
+}
+
+.navbartop{
+  position: relative;
+  top: 25%;
+  width: 100%;
+}
+
+
+.teamList {
+    height: 500px; 
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+    font-size: 20pt;
+    position: relative;
+    z-index: 1;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+}
+
+.teamList::after {
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom, transparent 0%, black 100%);
+    margin-top: 350px;
+    height: 150px;
+    width: 100%;
+    content: '';
+    z-index: -1;
+}
+
+.teamList > span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    z-index: 0;
+    margin: 10px;
+}
+
+.titles{
+    font-size: 45pt;
+}
+
+.container{
+  position: relative;
+  top: 25%;
+  width: 100%;
+}
+
+.centerItem{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}

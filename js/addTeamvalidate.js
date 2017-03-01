@@ -1,0 +1,3 @@
+$.validate({
+  lang: 'en'
+});

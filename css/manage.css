@@ -1,0 +1,215 @@
+#back{
+    width: auto;
+    height: 50px;
+    padding-left: 15px;
+}
+#edit{
+    width: auto;
+    height: 50px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+#logo{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+#homepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#managepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#searchpage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#profilepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contentMargin{
+    padding-top: 15%;
+    padding-bottom: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 100%;
+    
+}
+.btn{
+    font-size: 20pt;
+}
+#profileImg{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+b{
+    font-size: 35pt;
+    font-weight: 400;
+    color: grey;
+}
+p{
+    font-size: 30pt;
+}
+hr{
+    border-top-color: rgb(0,201,255);
+}
+.smallIcon {
+    width: 8.3%;
+    float: left;
+}
+.logoIcon {
+    width: 83.3%;
+    float: left;
+}
+.botttomNavIcon{
+    width: 25%;
+    float: left;
+}
+.navbar{
+    height: 100px;;
+    margin-bottom: 0px;
+    background-color: rgb(0,201,255);
+}
+.container{
+  position: relative;
+  top: 25%;
+  width: 100%;
+}
+.centerItem{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+#applicationAccept{
+    height: 100px;
+    width: 100%;
+    font-size: 35pt;
+    color: white;
+    background-color: rgb(0,201,255);
+    border-style: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#applicationDecline{
+    height: 100px;
+    width: 100%;
+    font-size: 35pt;
+    color: white;
+    background-color:crimson;
+    border-style: none;
+    margin-top: 10px;
+}
+.appStyle {
+    width: 100%;
+    height: 150px;
+    
+    
+}
+.myTeam {
+    width: 100%;
+    height: 150px;
+    
+}
+#applicationForm {
+    display: none;
+    
+    
+}
+img[class] { 
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+}
+.applyerimg{
+    object-fit: cover;
+}
+.applyernames{
+    color: #555555;
+    width: 82%;
+    float: right;
+}
+#applyerhr{
+    margin-top: -30px;
+}
+#myApplicationsList{
+    margin-bottom: 10%;
+}
+h1{
+    text-align: center;
+}
+#appBio{
+    word-wrap: break-word;
+}
+#appEmail{
+    word-wrap: break-word;
+}
+#noneBackBut{
+    display: none;
+}
+#appDesc{
+    word-wrap: break-word;
+}
+#applyerinfo{
+    text-align: center;
+    background-color: rgb(0,201,255);
+    padding: 20px;
+    color: gray;
+    border-radius: 20px;
+}
+#firsttitle{
+    color: white;
+    
+}
+#secondtitle{
+    color: white;
+}
+#applicationList h1{
+    color: #0095BF;
+    font-size: 35pt;
+    padding: 20px;
+}
+#alignment{
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    
+}
+.applyernames{
+    display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.appStyle{
+    cursor: pointer;
+}
+.myTeam{
+    cursor: pointer;
+}

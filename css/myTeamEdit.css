@@ -1,0 +1,267 @@
+#back{
+    width: auto;
+    height: 50px;
+    padding-left: 15px;
+}
+
+#edit{
+    width: auto;
+    height: 50px;
+}
+
+#logo{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+#homepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#managepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchpage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profilepage{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contentMargin{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 100%;
+    
+}
+
+
+.btn{
+    font-size: 20pt;
+}
+
+#teamImg{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+b{
+    font-size: 35pt;
+    font-weight: 400;
+    color: #0095BF;
+}
+
+p{
+    font-size: 30pt;
+}
+
+hr{
+    border-top-color: rgb(0,201,255);
+}
+
+.smallIcon {
+    width: 8.3%;
+    float: left;
+}
+.logoIcon {
+    width: 83.3%;
+    float: left;
+}
+
+.botttomNavIcon{
+    width: 25%;
+    float: left;
+}
+
+.navbar{
+    height: 100px;;
+    margin-bottom: 0px;
+    background-color: rgb(0,201,255);
+}
+
+.container{
+  position: relative;
+  top: 25%;
+  width: 100%;
+}
+
+.customInputSize{
+    font-size:35pt;
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+textarea {
+    box-sizing: border-box;
+    resize: none;
+}
+
+
+
+
+
+#categoryList{
+    font-size:35pt;
+}
+
+
+
+.dropbtn {
+    background-color: #0095BF;
+    color: white;
+    padding: 16px;
+    font-size: 35pt;
+    border: none;
+    cursor: pointer;
+    height: 100px;
+    width: 100%;
+    border-style: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(0, 120, 153);
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 35pt;
+    text-align: center;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.show {display:block;}
+
+
+.centerItem{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.teamRolesStyle{
+    font-size:35pt;
+    background-color:#ebebeb;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-position:right;
+    background-image: url("../img/x1.png");
+    background-size: 75px 50px;
+    background-repeat: no-repeat;
+    border-style: none;
+}
+
+#submitRoles{
+    height: 100px;
+    width: 100%;
+    font-size: 35pt;
+    color: white;
+    background-color: #0095BF;
+    border-style: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+#teamUpdate{
+    height: 100px;
+    width: 100%;
+    font-size: 35pt;
+    color: white;
+    background-color: rgb(0,201,255);
+    border-style: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#teamDelete{
+    height: 100px;
+    width: 100%;
+    font-size: 35pt;
+    color: white;
+    background-color: crimson;
+    border-style: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#categoryList{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#uploadInfo {
+    font-size: 20pt;
+    text-align: center;
+}
+
+
+.help-block {
+    text-align: center;
+    color: #a94442;
+    font-size: 30pt;
+}

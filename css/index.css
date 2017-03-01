@@ -1,0 +1,201 @@
+body{
+    background: linear-gradient(3deg, #006e65, #ff5caa);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 12s ease infinite;
+    -moz-animation: AnimationName 12s ease infinite;
+    animation: AnimationName 12s ease infinite; 
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+html {
+    height: 1743px;
+    background-size:contain;
+    background-position:center;
+}
+
+#logo {
+    width: 550px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+    margin-top: 350px;
+}
+
+#fbHolder {
+    text-align: center;
+    margin-top: 5%;
+}
+
+a {
+    color: #fff;
+}
+
+.formInput {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary {
+    width: 150px;
+    border-color: #00CCFA;
+}
+
+.centerItem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginMargin {
+    margin-top: 50px;
+}
+
+.input-group-addon {
+    background: transparent;
+}
+
+.glyphicon {
+    color: white;
+}
+
+.input-group-addon {
+    border-style: none;
+}
+
+.col-md-4 {
+    background: transparent;
+    padding-left: 35px;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.has-error .input-group-addon {
+    background: transparent;
+}
+
+.has-success .input-group-addon {
+    background: transparent;
+}
+
+#parent {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.form-horizontal {
+    padding-left: 18%;
+    padding-right: 20%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.form-control {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-style: none;
+    border-radius: 10px !important;
+    font-size: 30pt;
+    color: white;
+}
+
+.input-group{
+    display: inline !important;
+}
+
+.help-block{
+    color: red;
+    font-size: 20pt;
+}
+.form-control::-webkit-input-placeholder { 
+    color: white;
+    opacity: 0.5 !important;
+    padding-left: 15px;
+}
+
+.glyphicon {
+    font-size: 3em;
+    opacity: 0.7;
+}
+
+.btn{
+    height: 70px;
+    width: 300px;
+    font-size: 30pt;
+    border-radius: 15px;
+    border: solid 2px white;
+}
+#signupanchor{
+    text-decoration: none;
+}
+#fbLogin{
+    font-size: 30pt;
+}
+
+.btn-warning{
+    color: #fff;
+    background-color:transparent !important;
+    border-color: white !important;
+}
+.btn-primary{
+    background-color: transparent !important;
+     border-color: white !important;
+}
+#fblogo{
+    width: 20px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+.help-block{
+    
+    font-size: 29pt !important;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label{
+    color:#ff6a6a !important;
+}
+
+.col-md-4{
+    width: 100%;
+}

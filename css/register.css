@@ -1,0 +1,127 @@
+body{
+    background: linear-gradient(3deg, #006e65, #ff5caa);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 12s ease infinite;
+    -moz-animation: AnimationName 12s ease infinite;
+    animation: AnimationName 12s ease infinite; 
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+html{
+    height: 1743px;
+    background-size:contain;
+    background-position:center;
+}
+
+#logo {
+    width: 550px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+    margin-top: 350px;
+}
+
+#loginLink{
+    text-align: center;
+    margin-top: 5%;
+}
+
+a{
+    color: #fff;
+}
+
+
+.form-control {
+    height: 80px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-style: none;
+    border-radius: 10px !important;
+    font-size: 30pt;
+    margin: 20px;
+    color: white;
+}
+.form-control::-webkit-input-placeholder { 
+    color: white;
+    opacity: 0.5 !important;
+    padding-left: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary{
+    background-color: transparent !important;
+     border-color: white !important;
+}
+.btn{
+    height: 70px;
+    width: 300px;
+    font-size: 30pt;
+    border-radius: 15px;
+    border: solid 2px white;
+}
+#already{
+    font-size: 30pt;
+}
+.centerItem{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loginMargin{
+    margin-top: 50px;
+    color: white;
+}
+
+.has-error{
+    
+    font-size: 30pt;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label{
+    color:#ff6a6a !important;
+}
+
+.strength-meter{
+    display: block !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    font-size: 35pt !important;
+    width: 30%;
+}
+
+
+
+
+
